@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Genius Bank-Login</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="Javascript/script.js">
+	<style>
+	@media only screen and (max-width: 905px)
+	 {
+	 	#nav1
+	 	{
+	 		display: none;
+	 	}
+	 }
+   * 
+   {
+    margin: 0px;
+    padding:0px;
+   }
+</style>
+
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body>
+<!-- -----------------------------Hader first---------------------------------- -->
+
+	<nav class="navbar navbar-light justify-content-between">
+  <a class="navbar-brand" href="#"  id="Home">
+    <img src="../images/Genius1.png" width="330" height="90" alt="not found" class="mr-0 p-0 d-flex">
+  </a>
+  <ul class="nav justify-content-end"  id="nav1">
+  <li class="nav-item">
+    <a class="nav-link text-danger p-2 underline" href="#l_H">Report</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-danger p-2 ml-0" href="#about">About as</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-danger p-2 ml-0" href="#l_H">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-danger p-2" href="#">
+    	<img src="../images/Facebook_icon.svg.png" width="30" height="30">
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-danger p-2" href="#">
+      <img src="../images/whats-logo.jpg" width="30" height="30">
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-danger p-2" href="#">
+      <img src="../images/insta-logo.jpg" width="30" height="30">
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-danger p-2" href="#">
+      <img src="../images/twitter-logo.png" width="30" height="30">
+    </a>
+  </li>
+</nav>
+</div>
+
+<!-- -----------------------------Hader first---------------------------------- -->
+
+<!-- -----------------------------Hader Secound---------------------------------- -->
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background: #970000;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand text-white disabled" href="#"><h3>Bank</h3></a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link text-white ml-2" href="pages/index.html" style="scroll-behavior: smooth;"><h5>Home</h5> <span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item dropdown " >
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <span id="dropdown1" class="mb-2 ml-2">Customer</span>
+         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="customer_login.html"><h5>Customer_Login</h5></a>
+          <a class="dropdown-item" href="New_customer_resistration.html"><h5>New_Registrations</h5></a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white ml-2" href="services.html" style="scroll-behavior: smooth;"><h5>Services</h5></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white ml-2" href="loans.html" style="scroll-behavior: smooth;"><h5>Apply_Loan</h5></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white ml-2" href="investments.html"><h5>Investments</h5></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white ml-2" href="#l_H"><h5>Locations & Hours</h5></a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn bg-warning my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-----------------------resistreation Form ---------------------------->
+<div class="container-fluid mt-4 ">
+  <div class="row">
+    <div class="col-md-12 col-xl-2 bg-light"></div>
+<!-- ------------------------------------------------------------------ -->
+<div class="col-md-12 col-xl-8">
+  <div id="shadow1" class="p-4">
+    <h3  style="background-color:#970000; padding:5px;color: white; border-radius:10px; text-align:center;">Create New Account ( Administrator )</h3>
+  <form>
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-2 mt-4">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example1" class="form-control" placeholder="First_Name" required>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example2" class="form-control" placeholder="Middle_Name" required>
+      </div>
+    </div>
+
+     <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example3" class="form-control" placeholder="last_Name" required>
+      </div>
+    </div>
+  </div>
+
+      <div class="form-outline mb-2">
+        <label>Today Date<font color="red"><sup>*</sup></font></label>
+        <input type="date" id="form6Example1" class="form-control" required>
+      </div>
+
+      <div class="form-outline mb-3">
+        <label>Birth Date<font color="red"><sup>*</sup></font></label>
+        <input type="date" id="form6Example2" class="form-control" required>
+      </div>
+
+
+      <div class="form-outline mb-4">
+        <label>Upload Your Passport-size Photo<font color="red"><sup>*</sup></font></label>
+    <input type="file" id="form6Example5" class="form-control" required>
+  </div>
+ <div class="form-outline mb-4">
+    <input type="text" class="form-control" placeholder="Enter Your User_Name" required>
+  </div>
+
+   <div class="row mb-1">
+     <div class="col-10">
+       <div class="form-outline sm-4">
+    <input type="password" class="form-control" placeholder="Enter New Password" maxlength="8" minlength="8" required id="myInput">
+
+    <script type="text/javascript">
+            function myShow_password() 
+            {
+            var x = document.getElementById("myInput");
+            
+            if (x.type === "password") 
+                {
+                  x.type = "text";
+                } 
+                else 
+                {
+                  x.type = "password";
+                }
+            }
+    </script>
+
+      </div>
+     </div>
+
+     
+
+     <div class="col-1 mt-1 mb-4" >
+      <i class="fa fa-eye" style=" border-radius: 5px;text-align:center;color: white; background:#970000; padding: 7px; cursor: pointer;" aria-hidden="true" onclick="myShow_password();"></i>
+     </div>
+      <div class="col-1 mt-2 mb-4" >
+     </div>
+   </div>
+
+  <div class="form-outline mb-4">
+    <input type="number" id="form6Example5" class="form-control" placeholder="Enter Your Adhar Number" required>
+  </div>
+ 
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="form6Example5" class="form-control" placeholder="Enter Your Name as per (Pan-card)" required>
+  </div>
+
+  <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="form6Example6" class="form-control" placeholder="Enter a (Pan-card) Number" required>
+  </div>
+
+  <!-- Address Input -->
+  <div class="row mb-2 mt-4">
+    <div class="col">
+      <div class="form-outline">
+        <select class="form-select" aria-label="Default select example" style="height:35px; width: 100%; border-radius: 5px;"s>
+          <option>Select Villege</option>
+          <option>Deotakli</option>
+          <option>Shahartakli</option>
+          <option>Bhatkudgoan</option>
+          <option>Bhaygaon</option>
+          <option>Dhorsade</option>
+          <option>Antre</option>
+          <option>Dahigaon-Ne</option>
+          <option>Nimgaon</option>
+          <option>Gumfha</option>
+        </select>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+         <select class="form-select" aria-label="Default select example" style="height:35px; width: 100%; border-radius: 5px;"s>
+          <option>Select City</option>
+          <option>Shewgoan</option>
+          <option>Nevasa</option>
+          <option>Pathardy</option>
+        </select>
+        </div>
+    </div>
+
+     <div class="col">
+      <div class="form-outline">
+         <select class="form-select" aria-label="Default select example" style="height:35px; width: 100%; border-radius: 5px;"s>
+          <option>Select Dist.</option>
+          <option>Chatrapati Sambhaji Nager</option>
+          <option>A.Nager</option>
+          <option>Bhatkudgoan</option>
+          <option>Bhaygaon</option>
+          <option>Dhorsade</option>
+          <option>Antre</option>
+          <option>Dahigaon-Ne</option>
+          <option>Nimgaon</option>
+          <option>Gumfha</option>
+        </select>
+        </div>
+    </div>
+  </div>
+
+
+<div class="row mb-2 mt-4 mb-2">
+    <div class="col-8">
+      <div class="form-outline">
+        <input type="text" id="form6Example1" class="form-control" placeholder="Enter Mother Name"  required>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="number" id="form6Example2" class="form-control" placeholder="Area Pin_Code"  required>
+      </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-8">
+    <div class="form-outline mt-3 mb-0">
+        <label>Upload Your Verification-Form Photo<font color="red"><sup>*</sup></font></label>
+        <input type="file"  class="form-control" required>
+    </div>
+  </div>
+  <div class="col-4 mt-5">
+    <div class="form-outline">
+      <input type="number" id="form6Example2" class="form-control" placeholder="Enter Admin_Id"  required>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-2 mt-4">
+    <div class="col-1 ml-4 mt-2">
+      <div class="form-outline">
+        <input type="checkbox"class="form-control" required>
+      </div>
+    </div>
+   
+    <div class="col-10 mb-1">
+      <div class="form-outline">
+         <label><b>I Agree to Privacy & Policy.<font color="red"><sup>*</sup></font></b></label>
+      </div>
+    </div>
+</div>
+
+
+  <!-- Submit button -->
+  <div class="row mb-2 mt-2">
+    <div class="col-6 mt-2">
+      <div class="form-outline">
+        <button type="reset" class="btn btn-light btn-block mb-4 border border-2" style="background: white;color: black; font-weight: bold;">
+  Reset
+  </button>
+
+      </div>
+    </div>
+   
+    <div class="col-6 mt-2">
+      <div class="form-outline">
+<button type="submit" class="btn btn-danger btn-block mb-4" style="background: #970000; font-weight: bold;">
+  Create Now
+  </button>
+
+      </div>
+    </div>
+</div>
+</form>
+  </div>      
+</div>
+<!-- --------------------------------------------------------------------- -->
+    <div class="col-md-12 col-xl-2 bg-light"></div>
+  </div>
+</div>
+<!-----------------------resistreation Form ---------------------------->
+
+<div class="container-fluid mt-4 mb-4 " style="background:#970000 ; ">
+  <div class="row">
+    <div class="col-12 text-center p-2">
+      <a href="../index.html"><b style="color: white;">Go to Administrator Login</b></a>
+    </div>
+  </div>
+</div>
+
+
+</body></html>
